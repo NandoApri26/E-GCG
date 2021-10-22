@@ -1,0 +1,84 @@
+body{
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: #162488;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	height: 100px;
+}
+.login-box{
+	/*text-decoration: none;*/
+	width: 620px;
+	height: 420px;
+	/*background: rgba(0, 0, 0, 0.5);*/
+	/*color: white;*/
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	box-sizing: border-box;
+	/*padding: 60px;*/
+	padding: 120px 50px;
+	transform: translate(-50%, -50%);
+	border: 2px solid #FF0202;
+  	border-radius: 50px;
+}
+.login-box input[type="text"], input[type="password"]{
+	width: 490px;
+	border: 20px;
+	border-bottom: 1px solid #FF0202;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	/*color: white;*/
+	font-size: 16px;
+
+/*SUBMIT*/
+}.login-box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+	background: #162488;
+}
+.login-box input[type="submit"]:hover{
+	cursor: pointer;
+	background: #FFD344;
+}/*SUBMIT*/
+
+/*Forget your password*/
+.login-box a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #162488;
+}
+.login-box a:hover{
+	color: #FFD344;
+}
+.login-box p{
+	margin-bottom: 3px;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+.login-box input{
+	height: 20px;
+	width: 490px;
+	margin-bottom: 0px;
+}
+.bumn{
+	width: 220px;
+	height: 96px;
+	position: absolute;
+	top: 22px;
+	left: 39px;
+}
+.ptba{
+	left: 370px;
+	width: 180px;
+	height: 80px;
+	position: absolute;
+	top: 25px;
+}
